@@ -1,0 +1,167 @@
+html{
+    font-family:cursive
+}
+
+
+
+header {
+    width: 100%;
+    padding-top: 30px;
+    background-color: lightgrey;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+#headersearch {
+    height: 50%;
+    width: 20%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+
+}
+
+
+#recherche {
+    height: 100%;
+    width: 80%;
+    margin: 10%;
+    border: none;
+    background-color: white;
+    
+}
+#recherche2 {
+    height: 1%;
+    margin: 5%;
+}
+
+body{
+    margin: auto;
+}
+
+.main1 {
+    width: 100%;
+    padding-top: 5%;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.categorycata {
+    width: 25%;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.brandcata {
+    margin-top: 35px;
+    width: 20%;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+}
+
+main {
+    width: 100%;
+    padding-top: 5%;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.cataloguesItem {
+    margin-top: 35px;
+    width: 25%;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+}
+.productContent{
+    margin-top: 35px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.productDetail img {
+    margin-top: 35px;
+    width: 25%;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.productDetail {
+    text-align: center;
+}
+
+
+
+
+
+.main1 img {
+    width: 25%;
+
+}
+@media screen and (max-width:600px){
+    main {
+        display: block;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        top: 2em;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+    }
+    
+    main article {
+        width: 100%;
+    }
+    [alt="logo entreprise bureau"]{                                                                                                                                                                                                                                 
+        display: block;
+    }
+}
+
+nav {
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    background-color: blanchedalmond;
+    justify-content: center;
+    width: 100%;
+    display: flex;  
+}
+
+footer iframe {
+    width: 70%;
+
+}
+
+footer p {
+    width: 30%;
+}
